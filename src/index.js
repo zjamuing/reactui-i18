@@ -9,7 +9,7 @@ import {IntlProvider} from 'react-intl';
 
 ReactDOM.render(
 
-    <IntlProvider>
+    <IntlProvider >
   <App />
 </IntlProvider>, 
     
