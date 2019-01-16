@@ -25,6 +25,7 @@ const NewWizard = props => (
       steps.forEach(s => {
         initialValues[s.name] = constructInitialValues(s)
       })
+      
       return (
         <div>
           <NavBar
